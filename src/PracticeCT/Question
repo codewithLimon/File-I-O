@@ -1,0 +1,17 @@
+   Create a file in write mode with the name "this_is_a_test.txt".
+   This file did not exist before. Then write the line "This is the best course ever" 10 times on the file.
+   You should save the file in your project directory. Then copy the contents of the file by chunking method
+   with 256 bytes and save the file with same name in the document folder of your pc.
+
+   For the next task, follow this scenario: You are a game developer making game on Naruto Shippuden.
+   Bow your characters in the game has serveral properties. He has
+
+   a. health- an integer value
+   b. Strength - an integer value
+   c. List(Vector) of abilities of type string.
+   d. Bane - a String value
+
+
+   Write code for object serialization and deserialization with the above scenario.
+   Also write the necessary toString method to print the properties of each of the objects that you make.
+   You should make at-least two objects to demonstrate that your code is working

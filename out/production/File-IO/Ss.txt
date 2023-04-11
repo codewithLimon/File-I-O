@@ -1,0 +1,16 @@
+    Steps to serialize:
+
+    1. Your object class should implement serializable interface;
+    2. FileOutputStream fout=new FileOutputStream(file path)
+    3. ObjectOutputStream out=new ObjectOutputStream(fout);
+    4. out.writeObject(ObjectName)
+    5. close fout and out
+
+    Steps to deserialize:
+
+     1. Declare object
+     2. class should implement serializable
+     3. FileInputStream fileIn=new FileInputStream(file path);
+     4. ObjectInputStream in=new ObjectInputStream(fileIn);
+     5. ObjectName=(object Class name) in.readObject();
+     6. close in and fileIn;
